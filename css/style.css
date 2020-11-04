@@ -4,11 +4,15 @@
 
 header {
     position: relative;
+    height: 50px;
 }
 
 nav {
+    position: fixed;
+    width: 100%;
     height: 50px;
     background-color: #212121;
+    z-index: 2;
 }
 
 .menu {
@@ -31,6 +35,7 @@ nav {
 }
 
 .subheader {
+    top: 50px;
     height: 84px;
     background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
@@ -136,4 +141,68 @@ nav {
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
+}
+
+.reasons {
+    min-height: 900px;
+    padding-top: 71px;
+    padding-bottom: 65px;
+}
+
+.reasons .reasons-underheader {
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    line-height: 24px;   
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.reasons .reasons-header {
+    margin-top: 38px;
+    margin-bottom: 0px;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.reasons .reasons-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.reasons .reasons-item .reasons-round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.reasons .reasons-item .reasons-descr {
+    width: 343px;
+    margin-left: 26px;
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: justify;
+}
+
+.reasons .reasons-descr span {
+    line-height: 21px;
+    color: #1eacc7;
+    font-size: 17px;
+    text-align: left;
 }
