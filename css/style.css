@@ -149,7 +149,7 @@ nav {
     padding-bottom: 65px;
 }
 
-.reasons .reasons-underheader {
+.underheader {
     margin: 0 auto;
     width: 112px;
     height: 24px;
@@ -162,7 +162,7 @@ nav {
     text-align: center;
 }
 
-.reasons .reasons-header {
+.header {
     margin-top: 38px;
     margin-bottom: 0px;
     color: #222222;
